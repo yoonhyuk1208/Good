@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Storage } from "../storage/index";
 
-const baseUrl = `http://severurl~~`;
+const baseUrl = `https://40d8a55a-1f87-4968-91b4-daf28153cb73.mock.pstmn.io/`;
 
 export const Instance = axios.create({
   baseURL: baseUrl,
